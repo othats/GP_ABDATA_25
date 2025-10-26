@@ -1,4 +1,4 @@
-# AB Data Challenge — Project Management Course UPF
+# AB Data Challenge — Project Management Course UPF
 
 ## Modeling the Impact of Social and Climate Events on Water Consumption in Barcelona
 
@@ -49,3 +49,18 @@ The sample dataset follows the same structure as the AB Challenge data:
 | NumMeters	| Number of active meters in that section |
 | Consumption_L_day	| Total daily water consumption in liters |
 
+## Python environment setup
+
+Tested with Python version 3.13.7
+
+```
+python3.13 -m venv .venv
+```
+
+```
+source .venv/bin/activate
+```
+
+```
+pip install -r requirements.txt
+```
