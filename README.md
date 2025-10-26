@@ -64,3 +64,5 @@ source .venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
+> ! Remember to drop the datasets in the /data directory and **not upload sensible information**!
