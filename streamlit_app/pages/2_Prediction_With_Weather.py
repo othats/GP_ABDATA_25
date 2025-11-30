@@ -3,7 +3,7 @@ import plotly.express as px
 from utils.utils import load_data, load_catboost_model
 from utils.feature_engineering import add_features
 
-st.title("Consumption Prediction – With Weather")
+st.title("Consumption Prediction - With Weather")
 
 uploaded = st.file_uploader("Upload data for prediction", type=["csv"])
 

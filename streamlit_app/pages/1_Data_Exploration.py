@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 from utils.utils import load_consum_parquet
 
-st.title("Exploratory Data Analysis – Aggregated Consumption Data")
+st.title("Exploratory Data Analysis - Aggregated Consumption Data")
 
 # -------------------------------
 # CACHE LOADING & AGGREGATION
