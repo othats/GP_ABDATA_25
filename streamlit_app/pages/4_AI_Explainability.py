@@ -41,7 +41,12 @@ if uploaded:
         })
         .sort_values("mean_abs_shap", ascending=False)
     )
-
+    st.subheader("Feature Importance based on SHAP Values")
+    st.write("""
+                    The chart shows the **average impact of each feature on the model predictions** 
+                    as measured by SHAP values. Features at the top have the largest effect on predicted water consumption.
+             """)
+    
     # Plotly bar chart
     fig = px.bar(
         shap_df,
