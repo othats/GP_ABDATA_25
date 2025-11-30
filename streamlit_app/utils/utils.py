@@ -33,8 +33,9 @@ col_names = [
     'CONSUMO_ROLL14',
     'CONSUMO_ROLL30',
     'CONSUMO_STDROLL30',
-    'DIFF1',
-    'DIFF7']
+    # 'DIFF1',
+    # 'DIFF7'
+    ]
 
 @st.cache_resource
 def load_test_data():

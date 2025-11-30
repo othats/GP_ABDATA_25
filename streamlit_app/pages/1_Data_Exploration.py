@@ -106,7 +106,7 @@ st.header("Correlation Heatmap (Numeric Columns)")
 
 if len(numeric_cols) > 1:
     corr = df[numeric_cols].sample(n=min(500_000, len(df)), random_state=42).corr()
-    fig, ax = plt.subplots(figsize=(10,6))
+    fig, ax = plt.subplots(figsize=(8,4))
     sns.heatmap(corr, cmap="coolwarm", annot=False)
     st.pyplot(fig)
 else:

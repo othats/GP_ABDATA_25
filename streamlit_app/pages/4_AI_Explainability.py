@@ -9,8 +9,6 @@ import pandas as pd
 
 st.title("Consumption Prediction - With Weather")
 
-uploaded = st.file_uploader("Upload data for prediction", type=["csv"])
-
 X_val, y_val = load_test_data()
 
 df_feat = pd.concat([X_val, y_val], axis=1, ignore_index=True)
@@ -51,7 +49,7 @@ st.write("""
 
 # Plotly bar chart
 fig = px.bar(
-    shap_df,
+    shap_df[:20],
     x="mean_abs_shap",
     y="feature",
     orientation="h",
