@@ -1,6 +1,6 @@
 # AB Data Challenge — Project Management Course UPF
 
-## Modeling the Impact of Social and Climate Events on Water Consumption in Barcelona
+## Modeling the impact of weather on water consumption in Barcelona
 
 --- 
 
