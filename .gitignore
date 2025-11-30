@@ -5,3 +5,7 @@
 # Do not upload full dataset here, with the sample data is more than enough
 **.csv
 **.parquet
+
+**/catboost_info
+
+**/__pycache__
