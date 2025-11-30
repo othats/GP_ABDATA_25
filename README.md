@@ -51,7 +51,7 @@ The sample dataset follows the same structure as the AB Challenge data:
 
 ## Python environment setup
 
-Tested with Python version 3.13.7
+Tested with Python version 3.13.7. Run these commands from the root directory of the project.
 
 ```
 python3.13 -m venv .venv
@@ -66,3 +66,12 @@ pip install -r requirements.txt
 ```
 
 > ! Remember to drop the datasets in the /data directory and **not upload sensible information**!
+
+
+## How to run the streamlit application
+
+In the same shell as before, run the following command
+
+```
+streamlit run streamlit_app/app.py
+```
